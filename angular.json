@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "personal-site"
+    }
+  },
+  "defaultProject": "personal-site",
+  "cli": {
+    "analytics": false
+  }
 }
