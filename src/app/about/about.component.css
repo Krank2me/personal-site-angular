@@ -15,9 +15,9 @@
   font-family: "Montserrat" ,sans-serif;
 }
 
-.info {
+.about-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   width: 100%;
 }
@@ -27,23 +27,23 @@
 }
 
 .image {
-  padding: 70px 250px;
-  width: 60%;
-  height: 60%;
+  padding: 70px 188px;
+  width: 90%;
 }
 
 .resume {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   font-family: "Montserrat" ,sans-serif;
   font-size: 19px;
   font-weight: bolder;
   padding: 70px 300px;
+  width: 100%;
 }
 
 .desc {
-  max-width: 70%;
+  width: 100%;
 }
 
 .social {
@@ -61,6 +61,12 @@
 }
 
 .tools-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-skills {
   display: flex;
   flex-direction: row;
   justify-content: center;
